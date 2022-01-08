@@ -8,6 +8,11 @@
 			<ContextMenu name="Реквизит1КонтекстноеМеню" id="2"/>
 			<ExtendedTooltip name="Реквизит1РасширеннаяПодсказка" id="3"/>
 		</InputField>
+		<InputField name="Реквизит2" id="6">
+			<DataPath>Реквизит2</DataPath>
+			<ContextMenu name="Реквизит2КонтекстноеМеню" id="7"/>
+			<ExtendedTooltip name="Реквизит2РасширеннаяПодсказка" id="8"/>
+		</InputField>
 		<Button name="Команда1" id="4">
 			<Type>UsualButton</Type>
 			<CommandName>Form.Command.Команда1</CommandName>
@@ -20,6 +25,22 @@
 				<v8:Type>cfg:ExternalDataProcessorObject.ИзменитьВыделенное</v8:Type>
 			</Type>
 			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="Реквизит2" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Реквизит2</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
 		</Attribute>
 	</Attributes>
 	<Commands>
